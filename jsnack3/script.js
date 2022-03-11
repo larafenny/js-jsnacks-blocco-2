@@ -2,3 +2,6 @@
 
 // Creo console.log per vedere se js file è collegatto a index.html
 console.log('JS ok');
+
+// Creo un array con 10 numeri
+var arrayGrande=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
