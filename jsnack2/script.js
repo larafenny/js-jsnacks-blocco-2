@@ -6,11 +6,15 @@ console.log('JS ok');
 // Creo un array vuoto che successivamente verrà riempito
 let arrayDaRiempire=[];
 
+//creo variabile somma e la inizializzo  a 0
+var somma=0;
+
 //Creo ciclo for che permetterà di riempire l'array con prompt
 for(let i=0; i<5; i++){
     arrayDaRiempire.push(parseInt(prompt("inserisci un numero")));
+    somma+=arrayDaRiempire[i];
+
 }
 console.log(arrayDaRiempire);
 
-//creo variabile somma e la inizializzo  a 0
-var somma=0;
+console.log('la somma dei numeri che hai inserito è ' + somma);
