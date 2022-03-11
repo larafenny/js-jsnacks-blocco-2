@@ -11,3 +11,6 @@ for(let i=0; i<5; i++){
     arrayDaRiempire.push(parseInt(prompt("inserisci un numero")));
 }
 console.log(arrayDaRiempire);
+
+//creo variabile somma e la inizializzo  a 0
+var somma=0;
