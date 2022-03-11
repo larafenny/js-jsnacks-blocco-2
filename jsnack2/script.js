@@ -5,3 +5,9 @@ console.log('JS ok');
 
 // Creo un array vuoto che successivamente verrà riempito
 let arrayDaRiempire=[];
+
+//Creo ciclo for che permetterà di riempire l'array con prompt
+for(let i=0; i<5; i++){
+    arrayDaRiempire.push(parseInt(prompt("inserisci un numero")));
+}
+console.log(arrayDaRiempire);
